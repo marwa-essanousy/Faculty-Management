@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Gateway-Service" />
+        <module name="Configuration-Service" />
         <module name="Discovery-Service" />
       </profile>
       <profile name="Annotation profile for EtudiantTp1" enabled="true">
@@ -37,6 +38,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Configuration-Service" options="-parameters" />
       <module name="Discovery-Service" options="-parameters" />
       <module name="Discovery_Service (1)" options="-parameters" />
       <module name="Discovery_Service (2)" options="-parameters" />
